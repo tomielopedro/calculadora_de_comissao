@@ -3,11 +3,8 @@ import pandas as pd
 import plotly.express as px
 from avec_api.avec import Avec
 from avec_api.models import Servico
-import os 
-from dotenv import load_dotenv
 
-# Carrega variáveis de ambiente
-load_dotenv()
+authorization = st.secrets['authorization']
 
 # --- Configuração da Página ---
 st.set_page_config(
@@ -20,7 +17,6 @@ st.set_page_config(
 @st.cache_data(ttl=3600)
 def carregar_dados_avec():
     try:
-        authorization = os.getenv('AUTHORIZATION_RT')
         if not authorization:
             return []
         avec = Avec(authorization)

@@ -1,0 +1,81 @@
+# ─────────────────────────────────────────
+#  Arquivos gerais do Python
+# ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Compiled files
+*.dll
+*.out
+*.a
+*.o
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# ─────────────────────────────────────────
+#  Virtualenv
+# ─────────────────────────────────────────
+venv/
+.env/
+.env.bak/
+env/
+.venv/
+*.venv/
+
+# ─────────────────────────────────────────
+#  Streamlit
+# ─────────────────────────────────────────
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/*.lock
+.streamlit/cache/
+.streamlit/cache/*
+.streamlit/static/
+
+# Arquivos gerados pelo Streamlit
+**/.taskscript_cache/
+**/.streamlit/
+
+# ─────────────────────────────────────────
+#  IDEs e editores
+# ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ─────────────────────────────────────────
+#  Arquivos do sistema
+# ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────────
+#  Arquivos de banco de dados e temporários
+# ─────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+*.bak
+
+# ─────────────────────────────────────────
+#  Jupyter (caso tenha notebooks)
+# ─────────────────────────────────────────
+.ipynb_checkpoints/

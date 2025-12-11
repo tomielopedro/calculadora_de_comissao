@@ -45,13 +45,4 @@ class Avec:
         return self.__get_all_data(base_url, page)
 
 
-if __name__ == "__main__":
-    from dotenv import load_dotenv
-    import os
-    
-    load_dotenv()
-    
-    authorization = os.getenv('AUTHORIZATION_RT')
-    avec = Avec(authorization)
 
-    print(avec.rel_0033_all()) 
