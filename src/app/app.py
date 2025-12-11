@@ -182,7 +182,7 @@ with col_config:
         valor_padrao_venda = 0.0
         custo_padrao_produtos = 0.0
 
-    with st.form("form_calculadora"):
+    with st.form("form_calculadora", height=400):
         valor_procedimento = st.number_input(
             "💰 Valor do Procedimento (R$)", 
             min_value=0.0, 
