@@ -55,38 +55,70 @@ def carregar_dados_avec():
 def carregar_e_mesclar_dados():
     # 1. Carrega API
     dados_api = carregar_dados_avec()
+    
     if dados_api:
+        # Converte Pydantic para DataFrame
         df_api = pd.DataFrame([s.model_dump() for s in dados_api])
-        df_api = df_api.astype({
+        
+        # --- CORREÇÃO DO ERRO ---
+        # Verifica se a coluna 'id' existe. Se não existir, criamos uma baseada no índice.
+        if 'id' not in df_api.columns:
+            # Tenta achar colunas similares comuns em APIs
+            possible_ids = ['uuid', '_id', 'code', 'codigo']
+            found_id = next((col for col in possible_ids if col in df_api.columns), None)
+            
+            if found_id:
+                df_api['id'] = df_api[found_id] # Usa a coluna encontrada como ID
+            else:
+                # Se não tem nenhum ID, usa o índice ou o nome do serviço como ID temporário
+                # Isso impede o crash e permite salvar os custos
+                st.warning("Aviso: Campo 'id' não encontrado na API. Usando índice temporário.")
+                df_api['id'] = df_api.index.astype(str)
+
+        # Agora é seguro converter os tipos
+        # Usamos um dicionário seguro: só converte o que realmente existe
+        tipos_desejados = {
             "id": "string",
             "servico": "string",
             "tempo": "int64",
             "valor": "float64",
             "categoria": "string"
-        })
+        }
+        
+        # Filtra apenas as colunas que realmente existem no DataFrame para evitar KeyError
+        tipos_para_converter = {k: v for k, v in tipos_desejados.items() if k in df_api.columns}
+        
+        df_api = df_api.astype(tipos_para_converter)
+        
     else:
+        # DataFrame vazio estruturado
         df_api = pd.DataFrame(columns=["id", "servico", "tempo", "valor", "categoria"])
 
     # 2. Carrega CSV Local
     if os.path.exists(ARQUIVO_DADOS):
         try:
             df_csv = pd.read_csv(ARQUIVO_DADOS)
-            df_csv['id'] = df_csv['id'].astype(str)
+            
+            # Garante que ID seja string para bater com a API
+            if 'id' in df_csv.columns:
+                df_csv['id'] = df_csv['id'].astype(str)
+            
             cols_custo = ['id', 'custo_produto', 'custo_lavagem']
             cols_existentes = [c for c in cols_custo if c in df_csv.columns]
             df_custos = df_csv[cols_existentes]
         except Exception as e:
-            st.warning(f"Arquivo de custos recriado. Erro: {e}")
+            st.warning(f"Arquivo de custos recriado por incompatibilidade. Erro: {e}")
             df_custos = pd.DataFrame(columns=['id', 'custo_produto', 'custo_lavagem'])
     else:
         df_custos = pd.DataFrame(columns=['id', 'custo_produto', 'custo_lavagem'])
 
     # 3. Mesclagem
-    if not df_api.empty and not df_custos.empty:
+    if not df_api.empty and not df_custos.empty and 'id' in df_custos.columns and 'id' in df_api.columns:
         df_final = pd.merge(df_api, df_custos, on='id', how='left')
     else:
         df_final = df_api.copy()
 
+    # Preenchimento de valores nulos
     if 'custo_produto' not in df_final.columns:
         df_final['custo_produto'] = 0.0
     if 'custo_lavagem' not in df_final.columns:
