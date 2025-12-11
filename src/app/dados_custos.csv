@@ -1,0 +1,198 @@
+id,servico,tempo,valor,categoria,custo_produto,custo_lavagem
+282547,Corte Masculino Segunda a Quinta,30,67.0,Corte Masculino,50.0,5.0
+282548,Corte Masculino Sexta e Sábado,30,77.0,Corte Masculino,0.0,0.0
+282549,Corte Feminino Segunda a Quinta,30,115.0,Corte Feminino,0.0,0.0
+282552,Escova Lisa,60,55.0,Escova,0.0,0.0
+282553,Escova Crespa,60,70.0,Escova,0.0,0.0
+282555,Corte Feminino Sexta e Sabado,30,115.0,Corte Feminino,0.0,0.0
+282556,Tonalizante Masculino.,10,30.0,Coloração,0.0,0.0
+282572,Mega  Hair,240,450.0,Mega Hair,0.0,0.0
+282573,Interlace a Faixa,20,75.0,Mega Hair,0.0,0.0
+282576,Design de Sobrancelha,20,50.0,Sobrancelha,0.0,0.0
+282577,Henna,30,30.0,Sobrancelha,0.0,0.0
+282578,Maquiagem definitiva,80,550.0,Sobrancelha,0.0,0.0
+282579,Maquiagem definitiva anual,80,490.0,Sobrancelha,0.0,0.0
+282580,Maquiagem definitiva Retoque Mês,20,0.0,Sobrancelha,0.0,0.0
+282584,Penteado.,20,130.0,Pentado,0.0,0.0
+282587,Alongamento de Cílios,130,195.0,Estética Facial,0.0,0.0
+282588,Mechas Mega,10,10.0,Mega Hair,0.0,0.0
+282592,Escova Corte Segquinta,60,30.0,Escova,0.0,0.0
+282593,Escova Corte Sextasabado,60,30.0,Escova,0.0,0.0
+282601,Hidratação Keune,20,65.0,Lavatório,0.0,0.0
+282620,Dep. buço maicon,20,20.0,Depilação,0.0,0.0
+282629,Aluguel Aplique,60,80.0,Mega Hair,0.0,0.0
+282674,Mega Hair ,30,40.0,Mega Hair,0.0,0.0
+282689,Venda Cabelo,1,800.0,Mega Hair,0.0,0.0
+282734,Barba,40,35.0,Corte Masculino,0.0,0.0
+282754,Tonalizante,20,60.0,Coloração,0.0,0.0
+282807,Alisamento,40,86.0,Alisamento,0.0,0.0
+282811,Depilação Rosto,30,35.0,Depilação,0.0,0.0
+282813,Depilação Nariz,10,20.0,Depilação,0.0,0.0
+282816,Corte Com Escova ,60,105.0,Corte Feminino,0.0,0.0
+282817,Corte Sem Escova Virginia,40,75.0,Corte Feminino,0.0,0.0
+282826,Corte Bordado Com Escova,80,112.0,Corte Feminino,0.0,0.0
+282832,Pacote Hidratação - Com Escova,60,370.0,Escova,0.0,0.0
+282835,Reconstrução Capilar Miracle,30,120.0,Lavatório,0.0,0.0
+282836,Mechas Rui,100,187.0,Mechas,0.0,0.0
+282838,Alisamento Progressivo ,120,350.0,Alisamento,0.0,0.0
+286870,Alongamento de Cílios Manutenção,90,95.0,Estética Facial,0.0,0.0
+286903,Corte e Barba até Quinta-feira,30,95.0,Corte Masculino,0.0,0.0
+306345,Corte e Barba Sexta e sábado ,30,110.0,Corte Masculino,0.0,0.0
+306360,Maquiagem Social,60,280.0,Maquiagem,0.0,0.0
+306361,Mechas com Samira,80,200.0,Mechas,0.0,0.0
+306402,Micropigmentação Capilar,120,500.0,Outros,0.0,0.0
+310046,Corte virginia c escova outros profissionais,40,55.0,Corte Feminino,0.0,0.0
+310073,Penteado Virginia,40,90.0,Pentado,0.0,0.0
+310093,Corte feminino sem escova,20,115.0,Corte Feminino,0.0,0.0
+310108,Escova mechas,60,60.0,Escova,0.0,0.0
+372840,serviços funcionarios,30,0.0,Outros,0.0,0.0
+393450,Secagem,10,20.0,Escova,0.0,0.0
+463629,Mechas Com Virginia,80,300.0,Mechas,0.0,0.0
+711338,Peeling de Diamante,50,60.0,Lavatório,0.0,0.0
+1453879,Despigmentação ,20,180.0,Outros,0.0,0.0
+2029537,Maquiagem Miri,60,180.0,Maquiagem,0.0,0.0
+2029557,Lash Lifting,60,120.0,Estética Facial,0.0,0.0
+2194249,Maquiagem Infantil,30,40.0,Maquiagem,0.0,0.0
+2220182,Ozônioterapia Completo,20,140.0,Lavatório,0.0,0.0
+2220188,Ozônioterapia Serviço,20,50.0,Lavatório,0.0,0.0
+2271960,Escova Noiva e Debutante,80,90.0,Escova,0.0,0.0
+2272007,Penteado Noiva e Debutante,40,190.0,Pentado,0.0,0.0
+2318863,Maquiagem Definitiva Olho,100,650.0,Sobrancelha,0.0,0.0
+2386466,Maquiagem Noiva e Debutante Miri,100,200.0,Maquiagem,0.0,0.0
+2386898, Botóx Capilar Ozonioterapia,40,250.0,Alisamento,0.0,0.0
+2752285,Maquiagem Pós Mechas,60,100.0,Maquiagem,0.0,0.0
+2812458,Corte Pós Alisamento Seg à Qui,20,70.0,Corte Feminino,0.0,0.0
+2812459,Corte Pós Alisamento Sex e Sab,20,80.0,Corte Feminino,0.0,0.0
+3064215,Pedicure Diana,50,45.0,Manicure e Pedicure,0.0,0.0
+3064217,Manicure Diana ,30,35.0,Manicure e Pedicure,0.0,0.0
+3064218,Esmaltação em gel ,120,95.0,Manicure e Pedicure,0.0,0.0
+3064220,Fibra de Vidro,180,180.0,Manicure e Pedicure,0.0,0.0
+3064222,Molde F1,180,160.0,Manicure e Pedicure,0.0,0.0
+3064225,Manutenção de Unha,120,130.0,Manicure e Pedicure,0.0,0.0
+3064227,Esmaltação,10,15.0,Manicure e Pedicure,0.0,0.0
+3095386,Fibra de vidro decorada,200,200.0,Manicure e Pedicure,0.0,0.0
+3095400,Blindagem diamante ,60,80.0,Manicure e Pedicure,0.0,0.0
+3095404,Banho de gel,120,100.0,Manicure e Pedicure,0.0,0.0
+3095469,Tratamento Podal,60,60.0,Manicure e Pedicure,0.0,0.0
+3095480,Manutenção fibra de vidro simples,120,150.0,Manicure e Pedicure,0.0,0.0
+3095481,Manutenção fibra de vidro,120,160.0,Manicure e Pedicure,0.0,0.0
+3098318,Super Blond G,140,760.0,Mechas Rudi,0.0,0.0
+3132072,Tecelagem ,1,100.0,Mega Hair,0.0,0.0
+3170958,Maquiagem Jaque,60,180.0,Maquiagem,0.0,0.0
+3175891,Atendimento domingos e feriados,30,0.1,Outros,0.0,0.0
+3181035,Deslocamento,30,100.0,Outros,0.0,0.0
+3193503,Lavagem assistente,20,15.0,Lavatório,0.0,0.0
+3224030,Assistente mega,30,10.0,Mega Hair,0.0,0.0
+3225516,Lavagem masculino,30,3.0,Lavatório,0.0,0.0
+3234269,Exfoliação e tratamento,80,170.0,Lavatório,0.0,0.0
+3258062,Tonalizante assistente,30,10.0,Mechas Rudi,0.0,0.0
+3271408,Reconstrução Capilar,30,100.0,Lavatório,0.0,0.0
+3293772,Maquiagem modelo,60,140.0,Maquiagem,0.0,0.0
+3350622,Consultoria Rudi,60,380.0,Outros,0.0,0.0
+3373424,Brow Lamination,40,120.0,Sobrancelha,0.0,0.0
+3373427,Maquiagem Samira ,60,220.0,Maquiagem,0.0,0.0
+3373428,Maquiagem Noiva e Debutante ,60,375.0,Maquiagem,0.0,0.0
+3440957,Tratamento Qalisa PM,60,350.0,Alisamento,0.0,0.0
+3440959,Tratamento Qalisa G,60,390.0,Alisamento,0.0,0.0
+3440960,Tratamento Qalisa Ultra PM,60,450.0,Alisamento,0.0,0.0
+3440962,Tratamento Qalisa Ultra G,60,490.0,Alisamento,0.0,0.0
+3579639,alongamento remoção,40,40.0,Manicure e Pedicure,0.0,0.0
+3602855,Maquiagem Definitiva Labio,100,650.0,Sobrancelha,0.0,0.0
+3602858,Maquiagem meio olho,80,450.0,Sobrancelha,0.0,0.0
+3633077,After Color Shampoo,30,0.0,Shampoo,0.0,0.0
+3633078,After Color Conditioner,30,0.0,Condicionador,0.0,0.0
+3633103,Blond Savior Mask,30,0.0,Máscara,0.0,0.0
+3633105,Blond Savior Shampoo,30,0.0,Shampoo,0.0,0.0
+3633108,Color Brillianz Conditioner,30,0.0,Condicionador,0.0,0.0
+3633110,Color Brillianz Mask,30,0.0,Máscara,0.0,0.0
+3633115,Color Brillianz Shampoo,30,0.0,Shampoo,0.0,0.0
+3633117,Derma Activate Shampoo,30,0.0,Shampoo,0.0,0.0
+3633119,Derma Exfoliate Shampoo,30,0.0,Shampoo,0.0,0.0
+3633121,Derma Regulate Shampoo,30,0.0,Shampoo,0.0,0.0
+3633122,Derma Sensitive Conditioner,30,0.0,Condicionador,0.0,0.0
+3633126,Derma Sensitive Shampoo,30,0.0,Shampoo,0.0,0.0
+3633127,Keratin Smooth Conditioner,30,0.0,Condicionador,0.0,0.0
+3633128,Keratin Smooth Shampoo,30,0.0,Shampoo,0.0,0.0
+3633130,Keratin Smooth Mask,30,0.0,Máscara,0.0,0.0
+3633138,Lumi Coat Cream,30,0.0,Finalizador,0.0,0.0
+3633140,Silver Savior Conditioner,30,0.0,Condicionador,0.0,0.0
+3633141,Silver Savior Shampoo,30,0.0,Shampoo,0.0,0.0
+3633144,Color Care Spray,30,0.0,Finalizador,0.0,0.0
+3633147,Defriz Shine,30,0.0,Finalizador,0.0,0.0
+3633148,Energizing Shampoo,30,0.0,Shampoo,0.0,0.0
+3633149,Exfoliating Shampoo,30,0.0,Shampoo,0.0,0.0
+3633153,Moisturizing Conditioner,30,0.0,Condicionador,0.0,0.0
+3633156,Moisturizing Shampoo,30,0.0,Shampoo,0.0,0.0
+3633157,Moisturizing Treatment,30,0.0,Máscara,0.0,0.0
+3633162,Moroccan Argan Oil,30,0.0,Finalizador,0.0,0.0
+3633165,Moisturizing Overnight,30,0.0,Finalizador,0.0,0.0
+3633171,Recover Shampoo,30,0.0,Shampoo,0.0,0.0
+3633175,Recover Treatment,30,0.0,Máscara,0.0,0.0
+3633183,Blond Savior Leave In ,30,0.0,Finalizador,0.0,0.0
+3633185,Clarify Shampoo,30,0.0,Shampoo,0.0,0.0
+3633188,Confident Curl Conditioner,30,0.0,Condicionador,0.0,0.0
+3633191,Confident Curl Shampoo,30,0.0,Shampoo,0.0,0.0
+3633193,Derma Sensitive Lotion,30,0.0,Tratamento,0.0,0.0
+3633707,Derma Sensitive Mask,30,0.0,Máscara,0.0,0.0
+3633710,Fortifying Lotion,30,0.0,Tratamento,0.0,0.0
+3633713,Fortifying Shampoo,30,0.0,Shampoo,0.0,0.0
+3633721,Keratin Smooth Serum,30,0.0,Finalizador,0.0,0.0
+3633723,Lumi Coat Spray,30,0.0,Finalizador,0.0,0.0
+3633727,Satin Oil Conditioner,30,0.0,Condicionador,0.0,0.0
+3633730,Satin Oil Shampoo,30,0.0,Shampoo,0.0,0.0
+3633739,Satin Oil Mask,30,0.0,Máscara,0.0,0.0
+3633746,Satin Oil Milk,30,0.0,Finalizador,0.0,0.0
+3633747,Vital Nutrition Shampoo,30,0.0,Shampoo,0.0,0.0
+3633748,Vital Nutrition Conditioner,30,0.0,Condicionador,0.0,0.0
+3633750,Vital Nutrition Mask,30,0.0,Máscara,0.0,0.0
+3633752,Vital Nutrition Thermal Cream,30,0.0,Finalizador,0.0,0.0
+3633954,Sleek Shine,30,0.0,Máscara,0.0,0.0
+3633968,Bond Fusion 1,30,0.0,Tratamento,0.0,0.0
+3633970,Bond Fusion 2,30,0.0,Tratamento,0.0,0.0
+3634012,Miracle Elixir,30,0.0,Tratamento,0.0,0.0
+3634050,Shampoo Qalisa,30,0.0,Shampoo,0.0,0.0
+3634052,Mascara Qalisa,30,0.0,Máscara,0.0,0.0
+3634057,Reconstrução Bond Fusion,30,120.0,Lavatório,0.0,0.0
+3635163,Ultimate Blond,30,0.0,Tratamento,0.0,0.0
+3639036,Confident Curl Mask,30,0.0,Máscara,0.0,0.0
+3697175,Corte Stefani ,40,50.0,Corte Masculino,0.0,0.0
+3821276,Pedicure Cintia,60,75.0,Manicure e Pedicure,0.0,0.0
+3926761,N - Morena Iuminada,30,420.0,Mechas Rudi,0.0,0.0
+3926771,N - Medium Blond ,30,560.0,Mechas Rudi,0.0,0.0
+3926772,Auxiliar Medium-Super Blond,30,25.0,Mechas Rudi,0.0,0.0
+3926773,N - Super Blond,30,720.0,Mechas Rudi,0.0,0.0
+3926777,N - Mechas Basica,30,230.0,Mechas Rudi,0.0,0.0
+3926781,Auxiliar Mechas Basica,30,15.0,Mechas Rudi,0.0,0.0
+3926784,Auxiliar Tonalizante,30,10.0,Mechas Rudi,0.0,0.0
+3931046,Corte Rui,100,75.0,Corte Feminino,0.0,0.0
+3931047,Corte com escova Rui,100,100.0,Corte Feminino,0.0,0.0
+4120521,Remoção de gel,20,15.0,Manicure e Pedicure,0.0,0.0
+4171339,Maquiagem Isabele,80,215.0,Maquiagem,0.0,0.0
+4374400,REMOÇÃO DE MICROPIGMENTAÇÃO DOS OLHOS,40,300.0,Estética Facial,0.0,0.0
+4487140,black peel sessão,60,200.0,Estética Facial,0.0,0.0
+4487142,black peel pacote 3 sessões,60,500.0,Estética Facial,0.0,0.0
+4489276,Indicação,10,0.0,Outros,0.0,0.0
+4503338,black peel retorno,40,0.0,Estética Facial,0.0,0.0
+4534263,microagulhamento,40,250.0,Estética Facial,0.0,0.0
+4630675,Limpeza de Pele,120,170.0,Estética Facial,0.0,0.0
+4630684,remoção de sinais na pele,20,100.0,Estética Facial,0.0,0.0
+4656127,Prótese capilar,40,1500.0,Outros,0.0,0.0
+4656129,Fixação de prótese capilar,30,200.0,Outros,0.0,0.0
+4665803,Lavagem,20,15.0,Lavatório,0.0,0.0
+4697116,Manutenção Prótese,20,80.0,Outros,0.0,0.0
+4723988,Finalização Jessica,60,65.0,Escova,0.0,0.0
+4773825,Black Alisamento,180,250.0,Clube RT para Todos,0.0,0.0
+4773834,Black Mechas,100,300.0,Clube RT para Todos,0.0,0.0
+4774421,Alongamento de Unha - Fibra de Vidro,120,170.0,Julia unhas,0.0,0.0
+4774605,Corte Jéssica,40,80.0,Jéssica ,0.0,0.0
+4774606,Finalização com babyliss ,100,150.0,Jéssica ,0.0,0.0
+4774607,Corte e Tratamento - Jessica,80,180.0,Jéssica ,0.0,0.0
+4788153,Abertura de Cachos,120,200.0,Jéssica ,0.0,0.0
+4788165,Consultoria Jéssica,90,450.0,Jéssica ,0.0,0.0
+4788169,Mechas Jéssica,120,280.0,Jéssica ,0.0,0.0
+4788171,Loiro Jéssica,160,350.0,Jéssica ,0.0,0.0
+4788179,Epilação Facial,40,60.0,Jéssica ,0.0,0.0
+4788182,Epilação Buço ,20,35.0,Jéssica ,0.0,0.0
+4799378,ENZIMAS,30,150.0,Estética Corporal,0.0,0.0
+4808949,Botox Facial,30,899.0,Estética Facial,0.0,0.0
+4834650,Auxiliar Prótese,20,15.0,Outros,0.0,0.0
